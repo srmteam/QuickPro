@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20pt"
+        android:text="Learning Mode" />
+	<LinearLayout
+	    android:layout_below="@+id/textView1"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="25dp"
+	    android:layout_marginRight="25dp"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+        
+	    <Button
+	        android:layout_margin="10dp"
+        	android:background="@drawable/ok_btn_bg"
+        	android:layout_width="fill_parent"
+        	android:layout_weight="1"
+        	android:layout_height="0dp"
+        	android:textSize="10pt"
+        	android:onClick="onUserTypeClick"
+        	android:text="Beginner" />
+	    
+        <Button
+            android:layout_margin="10dp"
+        	android:background="@drawable/ok_btn_bg"
+        	android:layout_width="fill_parent"
+        	android:layout_weight="1"
+        	android:layout_height="0dp"
+        	android:textSize="10pt"
+        	android:onClick="onUserTypeClick"
+        	android:text="Inter Mediate" />
+	    
+	    <Button
+	        android:layout_margin="10dp"
+        	android:background="@drawable/ok_btn_bg"
+        	android:layout_width="fill_parent"
+        	android:layout_weight="1"
+        	android:layout_height="0dp"
+        	android:textSize="10pt"
+        	android:onClick="onUserTypeClick"
+        	android:text="Expert" />
+	</LinearLayout>
+
+</RelativeLayout>

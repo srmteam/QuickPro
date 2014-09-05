@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+    
+	<TextView
+	    android:id="@+id/quizQues"
+	    android:layout_width="fill_parent"
+	    android:layout_height="65dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="@drawable/listitem_bg"
+	    android:gravity="center"
+	    android:maxLines="2"
+	    android:padding="10dp"
+	    android:text="Large Text"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+	    android:textColor="#B12121" />
+
+	<TableLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_below="@+id/quizQues"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="10dp"
+	    android:stretchColumns="0, 1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/quizOpt0"
+                style="@style/opt_button"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/quizOpt1"
+                style="@style/opt_button"
+                android:text="Button" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+            
+            <Button
+                android:id="@+id/quizOpt2"
+                style="@style/opt_button"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/quizOpt3"
+                style="@style/opt_button"
+                android:text="Button" />
+            
+        </TableRow>
+        
+	</TableLayout>
+
+</RelativeLayout>

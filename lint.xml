@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\course_example.xml" />
+        <ignore path="res\layout\course_flow.xml" />
+        <ignore path="res\layout\course_syntax.xml" />
+        <ignore path="res\layout\login_layout.xml" />
+        <ignore path="res\layout\work.xml" />
+    </issue>
+    <issue id="ExtraText">
+        <ignore path="res\layout\work.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\content.xml" />
+        <ignore path="res\layout\content_item.xml" />
+        <ignore path="res\layout\course.xml" />
+        <ignore path="res\layout\experiment5.xml" />
+        <ignore path="res\layout\login_layout.xml" />
+        <ignore path="res\layout\main.xml" />
+        <ignore path="res\layout\quiz.xml" />
+        <ignore path="res\layout\quiz_content.xml" />
+        <ignore path="res\layout\sub_main.xml" />
+        <ignore path="res\layout\work.xml" />
+        <ignore path="res\layout\workout.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res\layout\course_flow.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res\layout\course_experiment.xml" />
+    </issue>
+</lint>

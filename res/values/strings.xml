@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickPro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string-array name="workouts">
+        <item >Workout 1</item>
+        <item >Workout 2</item>
+        <item >Workout 3</item>
+        <item >Workout 4</item>
+        <item >Workout 5</item>
+        <item >Workout 6</item>
+        <item >Workout 7</item>
+        <item >Workout 8</item>
+        <item >Workout 9</item>
+        <item >Workout 10</item>
+        <item >Workout 11</item>
+        
+	</string-array>
+	
+    <string name="work_title1"><b><center>Create a “Hello World” C# Program.\n\n</center></b>Create a basic C# console-mode program that simply outputs the text “Hello World”.\n\n
+		Your program should wait for the user to press a key before the program exits.
+    </string>
+    <string name="work_title2"><b>An Interactive Program\n\n</b>Create a program that asks the user to enter an integer. If the integer is less than 10, print the message “This number is too small”. If the integer is greater than or equal to 10, print \"This number is big enough\".</string>
+    <string name="work_title3"><b>Arrays\n\n</b>Create a program that creates an array of five hard-coded floating-point values, then prints out just the second value.</string>
+    <string name="work_title4"><b>Arrays and Loops\n\n</b>Modify the <b><i>Workout 3</i></b> so that it uses a foreach loop to display all the values in the array, all on one line, each number formatted to two decimal places</string>
+    <string name="work_title5"><b>Two Dimensional Arrays\n\n</b>A bit trickier, this one. Write an application that creates a two-dimensional array of strings, with two rows and three columns. Print the value in the second row and third column.</string>
+    <string name="work_title6"><b>Looping Through 2D Arrays\n\n</b>Create an application that uses two nested for loops to loop through the 2D array defined in <b><i>Workout 5</i></b> and print the values.</string>
+    <string name="work_title7"><b>Create Classes and Objects\n\n</b>
+        First, create a main program as in the <b>Workout 1</b>.\n\n
+		Next, define a new class in its own file. Call the class Car. Give it a single method called "Start". Make the method simply print "Car started!".\n\n
+		In your main program, create a new Car object and call its Start() method.\n\n
+		Your final program should simply therefore display the text "Car started!".\n\n
+    </string>
+    <string name="work_title8"><b>Constructors\n\n</b>
+        Modify the <b><i>Workout 7</i></b> Car class so that it has an instance variable called name of type string Add a constructor that accepts a string parameter and sets the car\'s name using this parameter. Add a GetName() method that returns the car\'s name.</string>
+    <string name="work_title9"><b>While Loops\n\n</b>
+        Write an application that asks the user to enter the number \'5\' and loops over and over until \'5\' is entered.\n\n
+		When 5 is finally entered, print \"Got it!\".
+    </string>
+    <string name="work_title10"><b>Switch Statements\n\n</b>
+        Write a program that asks the user to enter an integer. If the user enters \'1\', print \"Only one?\". If the user enters \'100\', print \"100? That\'s a lot!\". If the user enters something other than these two numbers, print \"Input not recognized.\".
+    </string>
+    <string name="work_title11"><b>Do&#8230;While Loops\n\n</b>
+        Write a program that asks the user to enter an integer, then gets the input from the user. The program should repeatedly ask the user to enter an integer until the user enters an integer greater than 10; then it should print \"Integer greater than 10 detected!\" and should end.\n\n
+		The program must contain only two Write or WriteLine statements!
+    </string>
+    
+    <string-array name="beginner_content">
+        <item >C# Introduction</item>
+        <item >Compile &amp; Execute</item>
+        <item >Using Visual Studio</item>
+        <item >Error (Compile &amp; Run time)</item>
+        <item >Program Structure</item>
+        <item >The Main</item>
+        <item >Class Declaration</item>
+        <item >Comments</item>
+        <item >Tokens</item>
+        <item >Data Types</item>
+        <item >Variables</item>
+        <item >Type Conversion</item>
+        <item >Input &amp; Output</item>
+        <item >Boxing &amp; Unboxing</item>
+    </string-array>
+    <string-array name="medium_content">
+        <item >Control Statements</item>
+        <item >Looping Statements</item>
+        <item >Jump Statements</item>
+        <item >Methods</item>
+        <item >Method Parameters</item>
+        <item >Handling Arrays</item>
+        <item >Manipulating Strings</item>
+        <item >Structures</item>
+        <item >Enumerator</item>
+        <item >Exception Handling</item>
+    </string-array>
+    <string-array name="expert_content">
+        <item >OOP Introduction</item>
+        <item >Classes</item>
+        <item >Objects</item>
+        <item >Constructors</item>
+        <item >Static Members</item>
+        <item >Constants</item>
+        <item >Properties</item>
+        <item >Indexers</item>
+        <item >Inheritance</item>
+        <item >Overriding</item>
+        <item >Interface</item>
+        <item >Delegate</item>
+        <item >Events</item>
+    </string-array>
+    
+    <string name="exp_chap1"><b>What is C#\n\n</b>&#8226; C# <b><i>(C-Sharp)</i></b> is a new programming language developed by Microsoft Corporation\n\n
+        &#8226; Designed by Anders Hejlsberg (creator of Turbo Pascal and architect of Delphi), Scott Wiltamuth, and Peter Golde\n\n
+        &#8226; Described as a \"<i>Simple, modern, object-oriented, and type-safe programming language derived from C and C++</i>\"\n\n
+        &#8226; Bears many syntactic similarities to C++ and Java\n\n
+        <b>Applications of C#\n</b>
+        &#8226; Console applications\n\n
+        &#8226; Windows applications\n\n
+        &#8226; Developing Windows controls\n\n
+        &#8226; Developing ASP.NET projects\n\n
+        &#8226; Creating Web controls\n\n
+        &#8226; Providing Web services\n\n
+        &#8226; Developing .NET component library\n\n
+        <b>Features\n</b>
+		&#8226; Inheritance\n\n
+		&#8226; Method Overloading\n\n
+		&#8226; Overriding methods\n\n
+		&#8226; Constructors\n\n
+		&#8226; Invoking Other Constructors\n\n
+		&#8226; Interfaces\n\n
+		&#8226; Delegated and Events\n\n
+		&#8226; Initializers\n\n
+		&#8226; Hidling Base Class Members\n\n
+		&#8226; Comparing Classes\n\n
+		&#8226; String Comparisons\n\n
+		&#8226; Completely Object-Oriented\n\n
+		&#8226; Syntax is very similar to C++\n\n
+		&#8226; Garbage collection is automatic\n\n
+		&#8226; Strongly Typed\n\n
+		&#8226; Variables must be initialized before their use\n\n
+	</string>
+	
+    <string name="exp_chap2">The Common Language Infrastructure supports a two-step compilation process\n\n
+        <b>Compilation\n\n</b>
+        &#8226; The C# compiler: Translation of C# source to CIL\n\n
+        &#8226; Produces .dll and .exe files\n\n
+        &#8226; Just in time compilation: Translation of CIL to machine code\n\n
+        <b>Execution\n\n</b>
+        &#8226; With interleaved Just in Time compilation\n\n
+        &#8226; On Mono: Explicit activation of the interpreter\n\n
+        &#8226; On Window: Transparent activation of the interpreter\n\n
+        &#8226; <i>.dll</i> and <i>.exe</i> files are - with some limitations - portable in between different platforms 
+    </string>
+    
+    <string name="exp_chap3">1. Open MS Visual Studio .NET via the Start menu\n\n
+		 2. Open a new project\n\n
+		 3. Select both "C#" and "Console Application"\n\n
+		 4. Rename the project to something such as \"HeloWorld\"\n\n
+		 5. Hit "OK"\n\n
+		 6. Enter your source code\n\n
+		 7. To compile: Build => Build Solution\n\n
+		 8. To run: Debug => Start without Debugging\n\n
+    </string>
+    
+    <string name="exp_chap4">&#8226; Errors are typically a bad thing in computer programming.
+		&#8226; They are called bugs and are caused by an incorrect program.\n\n
+		<b>Compile Time Error\n\n</b>
+		&#8226; The program need not satisfy any invariants. In fact, it needn’t be a well-formed program at all\n\n
+		&#8226; Syntax errors\n\n
+		&#8226; Type checking errors\n\n
+		<b>Run Time Error\n\n</b>
+		\tWe know nothing about the program’s invariants - they are
+		whatever the programmer put in. Run-time invariants are rarely
+		enforced by the compiler alone; it needs help from the
+		programmer\n\n
+		What can go wrong are run-time errors:\n\n
+		&#8226; Division by zero\n\n
+		&#8226; Deferencing a null pointer\n\n
+		&#8226; Running out of memory\n\n
+		&#8226; Trying to open a file that isn’t there
+	</string>
+	
+    <string name="exp_chap5"><b><i>using</i></b> System;\n
+		<b><i>namespace</i></b> Test\n
+		{\n
+		\t<b><i>class</i></b> ExampleClass\n
+		\t{\n
+		\t\t<b><i>static void Main()</i></b>\n
+		\t\t{\n
+		\t\t\tSystem.Console.WriteLine("Hello, world!");\n
+		\t\t}\n
+		\t}\n
+		}\n\n
+		<b>using</b> » Like import in Java: bring in namespaces\n
+		<b>namespace</b> » Disambiguation of names\n
+		<b>class</b> » Like in C++ or Java\n
+		<b>static void Main()</b> » Defines the entry point for an assembly
+	</string>
+	
+    <string name="exp_chap6">&#8226; The Main method is the entry point of your program, where the program control starts and ends.\n\n
+        &#8226; It is declared inside a class or struct.\n\n
+        &#8226; It must be static.\n\n
+        &#8226; It can either have a void or int return type.\n\n
+        &#8226; The Main method is where you create objects and invoke other methods.\n\n
+        &#8226; The Main method can be declared without parameters or with parameters.\n\n
+        <b>Public static void Main(string[] args)\n\n</b>
+        <b>Public</b> » Since the method will be accessed by the other classes(.net runtime). That is why access modifier is Public\n
+		<b>Static</b> » By making Main method as static .net runtime environment do not need to make object of the class.\n
+		<b>Void</b> » Main method does not return anything\n
+		<b>(string[] args)</b> » Here we can pass any number of parameter to the class.
+    </string>
+    
+    <string name="exp_chap7">&#8226; A class is a template for an object\n\n
+		\t» How object look like\n\n
+		\t» How it behave\n\n
+		&#8226; Classes are declared using the keyword <b>class</b>\n\n
+		&#8226; C# is a <i>object oriented language</i> and therefore everything must be placed inside a class.
+	</string>
+    
+    <string name="exp_chap8">&#8226; Comments can be used to document what the program does and what specific blocks or lines of code do.\n\n
+		&#8226; C# compiler ignores comments, you can include them anywhere in a program without affecting your code.\n\n
+		&#8226; A comment is preceded by an double forward slash. The code of line after the double forward slash is simply ignored by the compiler.\n\n
+		&#8226; The are following types of comments in C#
+		\t» Single line comments\n
+		\t<i>// for single line comments</i>\n
+		\t» Multiple line comments\n
+		\t<i>/* for multi line comments */</i>\n
+		\t» XML tags comments\n
+		\t<i>/// XML tags displayed in a code comment</i>
+    </string>
+    
+    <string name="exp_chap9">&#8226; A simple C# program is a collection of tokens, comments and white space characters.\n\n
+		&#8226; White spaces (space, tab and newline are spaces) and comments are not treated as tokens.\n\n
+		&#8226; White space characters do not belong to any type of token they are just used to separate each token while writing up the C#.\n\n
+		Overall it constitutes five types of tokens:\n
+		\t1. Keywords\n
+		\t2. Identifiers\n 
+		\t3. Literals \n
+		\t4. Operators \n
+		\t5. Punctuators 
+	</string>
+    
+    <string name="exp_chap10">&#8226; Data Types in a programming language describes that what type of data a variable can hold .
+        &#8226; Classification of c# data types in two :\n
+        A. Predefined – Data types which are already present in c# language.\n
+        \t1. Integer\n
+        \t2. Real\n
+        \t3. Character\n
+        \t4. Boolean\n
+        \t5. String\n
+        B. User Defined – User can create their own data types.
+	</string>
+    
+    <string name="exp_chap11">A variable is nothting but a named memory location where we can store a value.\n\n
+        &#8226; Variables are identifiers associated with values. They are declared by writing the variable\'s type and name, and are optionally initialized in the same statement by assigning a value.\n\n
+        &#8226; In C#, a variable is declared like this: <b>datatype name;</b>\n\n
+        &#8226;  An example could look like this: <b>string str;</b>
+	</string>
+    
+    <string name="exp_chap12">&#8226; While working with variables of specific data types sometimes a situation occurs where it requires the conversion of data of one type to another type.\n\n
+		&#8226; For example converting an integer value to float type or vice versa.\n\n
+		&#8226; In C# conversions of variable to another data type can be done in two ways:\n
+		\t» Implicit conversion\n
+		\t» Explicit conversion\n\n
+		&#8226; Conversion based on System.Convert class
+	</string>
+    
+    <string name="exp_chap13">&#8226; The Console class provides a C# application with access to the standard input, standard output, and standard error streams.\n\n
+        &#8226; You can use the Console.Write and Console.WriteLine methods to display information on the console screen.\n\n
+        &#8226; You can obtain user input from the keyboard by using the Console.Read and Console.ReadLine methods.
+	</string>
+    
+    <string name="exp_chap14">&#8226; C# is an Object Oriented language it provides a feature of boxing and unboxing that enable value types to be treated as objects.\n\n    
+        &#8226; In C# when a variable of any data type is converted into an object is called boxing\n\n
+        &#8226; The conversion of an object back to a value type is known as unboxing.
+	</string>
+    
+    <string name="exp_chap15">These structures control the flow of the program through given conditions.\n\n
+        &#8226; The if statement is entered when the given condition is true. Single-line case statements do not require block braces although it is mostly preferred by convention.\n
+        &#8226; If we want to execute alternate code statements when the condition results to false\n\n
+        &#8226; If-else&#8230;if-else statements enable you to create a ladder of if else statements that executes the code statements among multiple else if conditions where the specified expression evaluates to true.\n
+		&#8226; The switch construct serves as a filter for different values. Each value leads to a "case". It is not allowed to fall through cases and therefore the keyword break is typically used to end a case. An unconditional return in a "case" block can also be used to end a case. See also how goto statement can be used to fall through from one case to the next. Many cases may lead to the same code though. The default case handles all the other cases not handled by the construct.
+	</string>
+    
+    <string name="exp_chap16">Iteration statements are statements that are repeatedly executed when a given condition is evaluated as true.\n\n
+        &#8226; While loop provides the functionality to execute the provided code block multiple times until the specified condition results to false or fails.\n\n        
+        &#8226; The do-while loop is similar to the while loop but execute the block atleast once.\n\n
+        &#8226; <b>for loop:</b> The for loop consists of three parts: declaration, condition and increment. Any of them can be left out as they are optional.\n\n
+        &#8226; <b>foreach loop:</b> The foreach statement is derived from the for statement and makes use of a certain pattern described in C#\'s language specification in order to obtain and use an enumerator of elements to iterate over.\n
+				Each item in the given collection will be returned and reachable in the context of the code block. When the block has been executed the next item will be returned until there are no items remaining.
+	</string>
+    
+    <string name="exp_chap17">&#8226; <b>Jump statements</b>: Jump statements are inherited from C/C++ and ultimately assembly languages through it. They simply represent the jump-instructions of an assembly language that controls the flow of a program.\n\n
+        &#8226; <b>Labels and goto statement</b>: Labels are given points in code that can be jumped to by using the goto statement.\n\n
+        &#8226; The <b>goto</b> statement can be used in switch statements to jump from one case to another or to fall through from one case to the next.\n\n
+        &#8226; <b>break</b> statement: The break statement breaks out of the closest loop or switch statement. Execution continues in the statement after the terminated statement, if any.\n\n
+        &#8226; <b>continue</b> statement: The continue statement discontinues the current iteration of the current control statement and begins the next iteration.
+	</string>
+    
+    <string name="exp_chap18">&#8226; Like in C and C++ there are functions that group reusable code. The main difference is that functions just like in Java have to reside inside of a class. A function is therefore called a method. A method has a return value, a name and usually some parameters initialized when it is called with some arguments. It can either belong to an instance of a class or be a static member.\n\n
+		&#8226; A method is called using . notation on a specific variable, or as in the case of static methods, the name of a type.\n\n
+		&#8226; In C#, methods are the functions or you can say procedures containing a code logic that may or may not return any value.\n\n
+		&#8226; The methods are declared inside the class body that process the provided data and return the response accordingly.\n\n
+		&#8226; As C# is an object-oriented programming language and follows its strict approach that is why every C# method must be declared within a class.\n\n
+	</string>
+    
+    <string name="exp_chap19"><b>ref and out parameters</b>\n\n
+        One can explicitly make arguments be passed by reference when calling a method with parameters preceded by keywords ref or out. These managed pointers come in handy when passing variables that you want to be modified inside the method by reference. The main difference between the two is that an out parameter must have been assigned within the method by the time the method returns, while ref need not assign a value.\n\n
+        &#8226; Pass by value: A value parameter works as a local variable for the method that gets its initial value from the argument variable passed to it while method invocation.\n
+        &#8226; Pass by reference: the parameters passed by reference represent the same memory location as of the argument variable passed at the time of method invocation\n
+        &#8226; Pass with arrays: In C#, we can declare a method parameter with a params modifier that can handle an array of multiple number of variables is known as parameter array.        
+	</string>
+    
+    <string name="exp_chap20">An array type is a reference type that refers to a space containing one or more elements of a certain type. All array types derive from a common base class, System.Array. Each element is referenced by its index just like in C++ and Java.\n\n
+        &#8226; An array in C# is what would be called a dynamic array in C++.\n
+        &#8226; Initializers: Array initializers provide convenient syntax for initialization of arrays.\n
+        &#8226; Multi-dimensional arrays: Arrays can have more than one dimension, for example 2 dimensions to represent a grid.
+	</string>
+    
+    <string name="exp_chap21">The System.String class, or simply string, represents an immutable sequence of unicode characters (char). Actions performed on a string will always return a new string.\n\n
+        &#8226; The System.StringBuilder class can be used when a mutable "string" is wanted.\n
+        &#8226; String class provides two properties <b>Chars</b> and <b>Length</b>.\n
+        &#8226; String class provides two types of methods <b>Static</b> and <b>Instance</b>.
+	</string>
+    
+    <string name="exp_chap22">Structures are more commonly known as structs. Structs are user-defined value types that are declared using the struct keyword. They are very similar to classes but are more suitable for lightweight types.\n\n
+        &#8226; C# Struct is a user defined value type data-type that can be used to encapsulate a small group of variables.
+    </string>
+    
+    <string name="exp_chap23">&#8226; In C#, enumerations are declared using enum keyword that is a user defined variable and provides an efficient way to store the named constants of distinct types.\n\n
+		&#8226; By default the underlying type of the enumerator is int.\n\n
+		&#8226; All enumerations have an underlying type that can be any integral type except char.
+	</string>
+    
+    <string name="exp_chap24">Runtime exception handling method in C# is inherited from Java and C/C++.\n\n
+        The base class library has a class called System.Exception from which all other exception classes are derived. An Exception-object contains all the information about a specific exception and also the inner exceptions that were caused. Programmers may define their own exceptions by deriving from the Exception class.\n\n
+        <b>try &#8230; catch &#8230; finally</b> statements\n\n
+        &#8226; The statements within the try block are executed, and if any of them throws an exception, execution of the block is discontinued and the exception is handled by the catch block. There may be multiple catch blocks, in which case the first block with an exception variable whose type matches the type of the thrown exception is executed.\n\n
+        &#8226; The statements within the finally block are always executed after the try and catch blocks, whether or not an exception was thrown. Such blocks are useful for providing clean-up code.\n\n
+		&#8226; Either catch or finally block, or both must follow the try block.
+    </string>
+    
+    <string name="exp_chap25">C# has direct support for object-oriented programming.\n\n
+        <b>Objects</b>: An object is created with the type as a template and is called an instance of that particular type.\n
+		\tIn C# objects are either references or values. No further syntactical distinction is made between those in code.\n\n
+		All types, even value types in their boxed form, implicitly inherit from the System.Object class which is the ultimate base class of all objects. The class contains the most common methods shared by all objects. Some of these are virtual and can be overridden.\n\n
+		&#8226; Data abstraction: Data abstraction is a process to delete all unnecessary attributes and remain the necessary attributes to describe an object.\n
+		&#8226; Encapsulation: Encapsulation is a process of tying together all data and methods that form a class and control the access to data by hiding its information.\n
+		&#8226; Polymorphism: Polymorphism describes how programmers write methods to do some general purpose function.\n
+		&#8226; Inheritance: Inheritance allows programmers to create new classes from existing ones.
+    </string>
+    
+    <string name="exp_chap26">&#8226; The C# Classes are the user-defined data types that enable you to create an encapsulated template having group of related member variables, fields, properties, member methods containing logical code blocks to process the input data, and events.\n\n
+ 		&#8226; The class keyword is used to declare the classes\n\n
+ 		&#8226; Access modifier keyword to set the accessibility level of the class across the namespace.\n\n
+ 		&#8226; The classname follows the class keyword and the curly braces hold the class body.\n\n
+ 		&#8226; The class body may have fields, properties, events and methods that are called the class members.\n\n
+    </string>
+    
+    <string name="exp_chap27">&#8226; An Object in C# is a block of memory allocated to create a class instance and configured according to class definition.\n\n
+		&#8226; A class object is called an instance of that particular class that enables you to access its methods and public member variables.\n\n
+		&#8226; You can create as many objects of class to store the dynamic data that belongs to the same characteristics and behavior for which the class has been designed.\n\n
+		&#8226; In C#, an object for class can be created using "new" keyword that allocates the memory location for a class instance.\n\n
+    </string>
+    
+    <string name="exp_chap28">A <b>constructor</b> is a special method that is called automatically when an object is created. Its purpose is to initialize the members of the object. Constructors have the same name as the class and do not return anything. They may take parameters like any other method.\n\n
+        Constructors can be public, private, or internal.\n\n
+        The <b>destructor</b> is called when the object is being collected by the garbage collector to perform some manual clean-up. There is a default destructor method called finalize that can be overridden by declaring your own.
+	</string>
+    
+    <string name="exp_chap29">&#8226; The C# class member variables and methods declared using static keyword are called static variables and static methods of that class.\n\n
+		&#8226; The static members of a C# class can be accessed without creating the class instance and remain available until the application domain is running.\n\n
+		&#8226; A static variable gets initialized and comes into existence before the execution of the static constructor of the class.\n\n
+		&#8226; The initial value of static variable is the default value provided by its associated data type.\n\n
+		&#8226; The static variables and methods of a class are associated to the class itself rather that its instance.\n\n
+		&#8226; They are common to all the instances of a class and are initialized once before the creation of any class object.\n\n
+		&#8226; As the static members belong directly to the class they are called class variables and class methods whereas the object oriented class members are called instance variables and instance methods.
+    </string>
+    
+    <string name="exp_chap30"><b>Constant variables</b>\n
+        The C# const keyword enables to declare an immutable variable having predefined values which are known at compile time and cannot be changed throughout the program.\n\n
+        <b>Readonly variables</b>\n
+        The C# also provides a readonly modifier that enables you to create the read-only member variables for a class. The read only variables are constant members by nature but they can be initialized at the run time using class constructor while creating the class instance.        
+    </string>
+    
+    <string name="exp_chap31"><b>Properties</b>
+        &#8226; The C# Properties enable to encapsulate the class fields and serves like an accessor method to access their values.\n\n
+		&#8226; C# property consists of one or two code block to assign or retrieve the value any field.\n\n
+		\t» The first code block property is used defined get accessor keyword that returns the value of encapsulated data field.\n
+		\t» The second block is defined using set accessor keyword that assigns the value to the data field of a class.\n\n
+		&#8226; A behavior of C# property depends upon the accessor code parts declared inside its body.\n\n
+		&#8226; The properties behave similar to class members when marked with access modifiers like private, public, protected, internal or protected internal\n\n
+		&#8226; Properties are similar class fields but are not classified as variables and cannot be passed as ref or out parameter to any method.\n\n
+		&#8226; When a get or set accessors of a C# property is marked private they become inaccessible outside the class in the same the instance members behave.\n\n
+    </string>
+    
+    <string name="exp_chap32">&#8226; An Indexer in C# allows you to provide the functionality of a virtual array to a class or struct containing it.\n\n
+		&#8226; The indexers enable you to access the value of class member by providing the location enclosed in square brackets [ ] in the same way as we use them with arrays.\n\n
+		&#8226; Indexers are similar to C# properties as we learnt in the previous slide.\n\n
+		&#8226; They also contain get and set accessors to fetch or assign the value of class elements.\n\n
+		&#8226; Indexers are instance members of a class and cannot be declared as static member.\n\n
+		&#8226; The indexers help to use the class as if it is collection of objects.
+    </string>
+    
+    <string name="exp_chap33">Single Inheritance: A single derived class is created from a single base class then the inheritance is called as single inheritance.\n\n
+		Hierarchical Inheritance: When more than one derived class are created from a single base class, then that inheritance is called as hierarchical inheritance.\n\n
+		Multi Level Inheritance: When a derived class is created from another derived class, then that inheritance is called as multi level inheritance.\n\n
+		Hybrid Inheritance: Any combination of single, hierarchical and multi level inheritances is called as hybrid inheritance.
+		Multiple Inheritance: When a derived class is created from more than one base class then that inheritance is called as multiple inheritance
+    </string>
+    
+    <string name="exp_chap34">Creating a method in derived class with same signature as a method in base class is called as method overriding.\n\n
+        &#8226; Same signature means methods must have same name, same number of arguments and same type of arguments.\n\n
+        &#8226; Method overriding is possible only in derived classes, but not within the same class. \n\n
+        &#8226; When derived class needs a method with same signature as in base class, but wants to execute different code than provided by base class then method overriding will be used.\n\n
+        &#8226; To allow the derived class to override a method of the base class, C# provides two options,virtual methods and abstract methods.
+    </string>
+    
+    <string name="exp_chap35">Interfaces in C # provide a way to achieve runtime polymorphism. Using interfaces we can invoke functions from different classes through the same Interface reference, whereas using virtual functions we can invoke functions from different classes in the same inheritance hierarchy through the same reference. Before things start getting difficult let me start using simple and short examples to explain the concept of interfaces.\n\n
+		An interface cannot be directly instantiated as an object. No data members can be defined in an interface. Methods and properties can only be declared, not defined.
+    </string>
+    
+    <string name="exp_chap36">when you want to create a delegate in C# you make use of delegate keyword. A delegate is used to invoke a method similar to how a method call is made.\n\n
+        At first, a delegate is defined with a specific signature (return type, parameter type and order etc). To invoke a delegate object, one or more methods are required with the EXACT same signature. A delegate object is first created similar like a class object created. The delegate object will basically hold a reference of a function. The function will then can be called via the delegate object.
+    </string>
+    
+    <string name="exp_chap37">Events are pointers that can point to multiple methods. More exactly they bind method pointers to one identifier. This can therefore be seen as an extension to delegates. They are typically used as triggers in UI development. The form used in C# and the rest of the Common Language Infrastructure is based on that in the classic Visual Basic.\n\n
+        An event requires an accompanied event handler that is made from a special delegate that in a platform specific library like in Windows Presentation Foundation and Windows Forms usually takes two parameters: sender and the event arguments. The type of the event argument-object derive from the EventArgs class that is a part of the CLI base library.\n\n
+		Once declared in its class the only way of invoking the event is from inside of the owner. A listener method may be implemented outside to be triggered when the event is fired.
+    </string>
+    
+</resources>

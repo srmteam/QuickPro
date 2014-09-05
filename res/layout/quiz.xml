@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/quizSubmit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_submit"
+        android:onClick="onSubmit"
+        android:text="Submit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <ViewFlipper
+        android:id="@+id/vfQuiz"
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/quizSubmit"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+        
+        <include android:id="@+id/ques1" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques2" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques3" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques4" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques5" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques6" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques7" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques8" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques9" layout="@layout/quiz_content"/>
+        <include android:id="@+id/ques10" layout="@layout/quiz_content"/>
+        
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quizSubmit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/vfQuiz"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:layout_toLeftOf="@+id/quizSubmit"
+        android:background="@drawable/background" >
+
+        <TextView
+            android:id="@+id/quizQno"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ques_no"
+            android:drawablePadding="20dp"
+            android:gravity="center|left"
+            android:text="1/10"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/quizScore"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/score"
+            android:drawablePadding="20dp"
+            android:gravity="center|left"
+            android:text="00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true" >
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp" >
+	
+	    <TextView
+	        android:id="@+id/workTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentTop="true"
+	        android:gravity="center"
+	        android:text="Workout "
+	        android:textColor="#FF6A5ACD"
+	        android:textSize="15pt" />
+	
+	    <TextView
+	        android:id="@+id/workContent"
+	        android:layout_margin="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/workTitle"
+	        android:layout_above="@+id/button1"
+	        android:gravity="center"
+	        android:maxLines="4"
+	        android:text="Large Text"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:onClick="onShow"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/ok_btn_bg"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:text="I developed, show Solution to Compare" />
+	    
+	    <ImageView 
+	       android:id="@+id/workSol"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_below="@+id/workContent"
+	       android:layout_centerHorizontal="true"
+	       android:visibility="gone" />
+	    
+	</RelativeLayout>
+</ScrollView>

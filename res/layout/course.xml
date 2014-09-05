@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtCourseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#1D8FFE" />
+
+    <ViewFlipper android:id="@+id/vfCourse" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rgMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtCourseTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+        
+        <include android:id="@+id/layInfo" layout="@layout/course_explain"/>
+        <include android:id="@+id/layFlow" layout="@layout/course_flow"/>
+        <include android:id="@+id/laySyn" layout="@layout/course_syntax"/>
+        <include android:id="@+id/layExp" layout="@layout/course_example"/>
+        
+    </ViewFlipper>
+    
+    <RadioGroup
+        android:id="@+id/rgMenu"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:orientation="horizontal"
+    	android:background="#000000"
+    	android:padding="2dp" >
+    	
+    	<RadioButton
+    	    android:text="Explain"
+    	    android:id="@+id/btnExp"
+      		style="@style/navbar_button"
+      		android:checked="true"
+      		android:drawableTop="@drawable/cinfo_bg" />
+    	
+    	<RadioButton
+    	    android:text="Flow"
+      		android:id="@+id/btnFlow"
+      		style="@style/navbar_button"
+      		android:drawableTop="@drawable/cflow_bg"
+      		android:layout_marginLeft="5dp" />
+    	
+    	<RadioButton
+    	    android:text="Syntax"
+      		android:id="@+id/btnSyn"
+      		style="@style/navbar_button"
+      		android:drawableTop="@drawable/csyn_bg"
+      		android:layout_marginLeft="5dp" />
+    
+    	<RadioButton
+    	    android:text="Example"
+      		android:id="@+id/btnExmpl"
+      		style="@style/navbar_button"
+      		android:drawableTop="@drawable/cexp_bg"
+      		android:layout_marginLeft="5dp" />
+    	
+    	<RadioButton
+    	    android:text="Try It"
+      		android:id="@+id/btnExperiment"
+      		style="@style/navbar_button"
+      		android:drawableTop="@drawable/ctest_bg"
+      		android:layout_marginLeft="5dp" />
+    </RadioGroup>
+    
+</RelativeLayout>
